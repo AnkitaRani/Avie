@@ -6,8 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.spring.myapp.dao.CorporationController;
 import com.spring.myapp.models.Corporation;
-import com.spring.myapp.models.controllers.CorporationController;
 
 @Controller
 public class CorporationViewController {

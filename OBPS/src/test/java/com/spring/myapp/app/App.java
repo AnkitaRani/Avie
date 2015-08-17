@@ -8,10 +8,10 @@ package com.spring.myapp.app;
 
 import java.util.List;
 
+import com.spring.myapp.dao.CorporationController;
+import com.spring.myapp.dao.DepartmentController;
 import com.spring.myapp.models.Corporation;
 import com.spring.myapp.models.Department;
-import com.spring.myapp.models.controllers.CorporationController;
-import com.spring.myapp.models.controllers.DepartmentController;
  
 public class App 
 {

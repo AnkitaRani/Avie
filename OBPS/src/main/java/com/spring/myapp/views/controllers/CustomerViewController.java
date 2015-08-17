@@ -1,7 +1,7 @@
 package com.spring.myapp.views.controllers;
 
+import com.spring.myapp.dao.*;
 import com.spring.myapp.models.*;
-import com.spring.myapp.models.controllers.*;
 
 import java.util.List;
 import java.util.Map;
