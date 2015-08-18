@@ -6,13 +6,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.spring.myapp.dao.CorporationController;
+import com.spring.myapp.dao.CorporationDAO;
+import com.spring.myapp.dao.impl.CorporationDAOImpl;
 import com.spring.myapp.models.Corporation;
 
 @Controller
 public class CorporationViewController {
 	
-	CorporationController cvc = new CorporationController();
+	CorporationDAO cvc = new CorporationDAOImpl();
 	
 	 @RequestMapping(value="corporations", method=RequestMethod.GET)
 	 public String listCorporation1() {

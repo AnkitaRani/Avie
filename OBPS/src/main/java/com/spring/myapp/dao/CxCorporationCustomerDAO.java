@@ -9,7 +9,7 @@ import org.hibernate.Transaction;
 import com.spring.myapp.models.CxCorporationCustomer;
 import com.spring.myapp.utils.HibernateUtil;
 
-public interface CxCorporationCustomerController {
+public interface CxCorporationCustomerDAO {
 
 	public CxCorporationCustomer createCxCorporationCustomer(CxCorporationCustomer cxCorporationCustomer);
 	public CxCorporationCustomer readCxCorporationCustomer(CxCorporationCustomer cxCorporationCustomer);

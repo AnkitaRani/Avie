@@ -8,8 +8,10 @@ package com.spring.myapp.app;
 
 import java.util.List;
 
-import com.spring.myapp.dao.CorporationController;
-import com.spring.myapp.dao.DepartmentController;
+import com.spring.myapp.dao.CorporationDAO;
+import com.spring.myapp.dao.DepartmentDAO;
+import com.spring.myapp.dao.impl.CorporationDAOImpl;
+import com.spring.myapp.dao.impl.DepartmentDAOImpl;
 import com.spring.myapp.models.Corporation;
 import com.spring.myapp.models.Department;
  
@@ -20,11 +22,11 @@ public class App
         System.out.println("Maven + Hibernate + MySQL");
         
         
-        CorporationController cd = new CorporationController();
+        CorporationDAO cd = new CorporationDAOImpl();
         Corporation corp = null;
         List<Corporation> corps = null;
         
-        DepartmentController dd = new DepartmentController();
+        DepartmentDAO dd = new DepartmentDAOImpl();
         Department dept = null;
         List<Corporation> depts = null;
 
